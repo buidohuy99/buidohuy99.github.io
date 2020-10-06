@@ -1,10 +1,555 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en" style="width:100%; height:100%;">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>My Resume</title>
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.bundle.css">
+  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://github.com/buidohuy99/resume/raw/main/MyResume.pdf&embedded=true" style="width:100%; height:100%;" frameborder="0"></iframe>
-  </body>
+
+<body>
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div class="navbar-item is-hidden-desktop">
+        <a href="https://github.com/buidohuy99" class="icon is-large has-text-light">
+          <i class="fab fa-2x fa-github"></i>
+        </a>
+      </div>
+      <div class="navbar-item is-hidden-desktop">
+        <a href="https://www.facebook.com/buido.huy.99/" class="icon is-large has-text-light">
+          <i class="fa fa-2x fa-facebook-square"></i>
+        </a>
+      </div>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a href="https://github.com/buidohuy99" class="icon is-large has-text-light">
+            <i class="fab fa-2x fa-github"></i>
+          </a>
+        </div>
+        <div class="navbar-item">
+          <a href="https://www.facebook.com/buido.huy.99/" class="icon is-large has-text-light">
+            <i class="fa fa-2x fa-facebook-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <div class="level">
+          <div class="level-item has-text-centered">
+            <figure class="image is-128x128">
+              <img class="is-rounded" src="img/my-avatar.png">
+            </figure>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column">
+            <h1 class="title is-1">
+              Bui Do Huy
+            </h1>
+            <h2 class="subtitle">
+              Senior/4th year student at HCM University of Science
+            </h2>
+            <div style="display: flex; justify-content: center;">
+              <div style="display: flex; justify-content: space-around; width: 70%;">
+                <span>
+                  <a href="docs/MyResume.pdf" class="icon has-text-light" style="width: fit-content">
+                    <i class="fas fa-file-pdf"></i> <strong>Resume</strong>
+                  </a>
+                </span>
+                <span>
+                  <a href="docs/AcademicTranscript.pdf" class="icon has-text-light" style="width: fit-content;">
+                    <i class="fas fa-file-pdf"></i> <strong>Academic transcript</strong>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">About Me</h1>
+      <hr />
+      <div class="content">
+          <ul style="text-align: justify;">
+            <li>99-liner, currently studying at HCM University of Science. Software Engineering major</li>
+            <li>Vietnamese</li>
+            <li>Gaming (Metroidvanias, Platformers, …) </li>
+            <li>Music (K-Pop, Disco, Rock, 80’s-inpired music, Lofi, just about anything that cheers me up…) </li>
+            <li>Singing (although I do not really know many Vietnamese songs, so…) </li>
+          </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Education / Training</h1>
+      <hr />
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <p class="title is-4">HCM University of Science</p>
+            <p class="subtitle is-6">Bachelor of Software Engineering - <time datetime="2017-9">September 2017</time> - <time
+                datetime="2021">Somewhere around 2021</time></p>
+          </div>
+          <div class="content">
+            Is currently a senior/4th year student
+            <ul>
+              <li>CGPA 8.69</li>
+              <li>For a detailed transcript: <a href="docs/AcademicTranscript.pdf">here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Projects</h1>
+      <hr />
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">ConventionHub</p>
+                <figure class="image is-square">
+                  <img class="modal-trigger" data-target="project-1-modal" src="img/default-convention.png">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Gomoku</p>
+                <figure class="image is-square">
+                  <img class="modal-trigger" data-target="project-2-modal" src="img/Gomoku.png">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Three school projects</p>
+                <figure class="image is-square">
+                  <img class="modal-trigger" data-target="project-3-modal" src="img/school-projects.jpg">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Photo album</p>
+                <figure class="image is-square">
+                  <img class="modal-trigger" data-target="project-4-modal" src="img/photo-album.png">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Electronic store</p>
+                <figure class="image is-square">
+                  <img class="modal-trigger" data-target="project-5-modal" src="img/electronic-store.png">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <p class="title">Music player</p>
+                <figure class="image is-square">
+                  <img class="modal-trigger" data-target="project-6-modal" src="img/music-player.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-4">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child notification">
+                <figure class="image is-4">
+                  <img class="modal-trigger" data-target="more-projects-modal" src="img/more.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Experience</h1>
+      <hr />
+      <p style="text-align: center;">
+        Currently have no work experience. 
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Contact</h1>
+      <hr />
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="https://github.com/buidohuy99" class="icon is-large">
+              <i class="fab fa-2x fa-github"></i>
+            </a>
+            <p class="heading"><a href="https://github.com/buidohuy99">github.com/buidohuy99</a></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="mailto:buido.huy99@gmail.com" class="icon is-large">
+              <i class="fas fa-2x fa-envelope"></i>
+            </a>
+            <p class="heading"><a href="mailto:buido.huy99@gmail.com">buido.huy99@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="https://www.facebook.com/buido.huy.99/" class="icon is-large">
+              <i class="fa fa-2x fa-facebook-square"></i>
+            </a>
+            <p class="heading"><a href="https://www.facebook.com/buido.huy.99/">buido.huy.99</a></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="#" class="icon is-large">
+              <i class="fab fa-2x fa-discord"></i>
+            </a>
+            <p class="heading"><a href="#">TuduRudu#3271</a></p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <div id="project-1-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">ConventionHub</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-1-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/convention-hub/1.png">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/convention-hub/2.PNG">
+          </figure>
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/convention-hub/3.PNG">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <ul>
+            <li>Project in Hibernate and JavaFX, to manage conventions/join conventions. Unfortunately, I was not able to, in time, develop the function of appointing admins in the system, so for now, it will have to be done by hand. That leads to the fact that is exceptions regarding promoting or demoting a user is currently NOT handled properly (very loosely). Project was written with Netbeans IDE 11.0 and JDK 12.0.2, other additional infos could be found in the README. </li> 
+            <li>Supports basic CRUD functionalities on Entities such as conventions, users, as well as places to organize conventions. More info could be found by running the project (preferably on Windows since I provided a batch file to run the project without using shells, so it’s more straightforward that way…) </li>
+            <li>This was my first try on applying 3-layer architecture, so the result was far from good. However, I hope that it was not fruitless effort! </li>
+            <li>Application can be run by following the guidelines denoted on the README file, along with using the included DB script. In case the reader is interested in running this project from the source code, I also provided the needed libraries’ binaries in a separate folder. </li>
+            <li>Source code can be found in “ConventionHub” repo along with a way to run the project. </li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">java</span>
+            <span class="tag">javafx</span>
+            <span class="tag">hibernate</span>
+            <span class="tag">mysql</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/buidohuy99/ConventionHub';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-2-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Gomoku</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-2-modal-carousel" class="carousel">
+          <figure class="image is-5by3 carousel-cell">
+            <img src="img/carousel/gomoku/1.PNG">
+          </figure>
+          <figure class="image is-5by3 carousel-cell">
+            <img src="img/carousel/gomoku/2.PNG">
+          </figure>
+          <figure class="image is-5by3 carousel-cell">
+            <img src="img/carousel/gomoku/3.PNG">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <ul>
+            <li>Personal project in C#, a gomoku game with UI supporting save/load from file</li> 
+            <li>Undo/redo moves. Basic functions of a gomoku game (5 in a row, barricading both sides of the opponent prevents opponent from winning)</li>
+            <li>Shows ability to solve a simple Data Structures and Algorithms problem (2D array) and make an application with that solution</li>
+            <li>Source code can be found in “WPFGomoku” repo</li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">c#</span>
+            <span class="tag">wpf</span>
+            <span class="tag">windows</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/buidohuy99/WPFGomoku';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-3-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Three school projects</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div class="content">
+
+          <ul>
+            <li>During the first two years of my program, we got to learn about various fundamental topics. Comes with those are projects to apply what we learnt. I hand-picked some of those and have put them on Github under "School projects"</li>
+            <li>One school project to create a simple proxy server capable of blacklisting sites from an input file. I was unfortunately unable to do multi-threading on this project</li> 
+            <li>The other two projects in this repo have to do with assembly. One was to write a time library with functions for date time operations, using MIPS assembly</li>
+            <li>The other had to do with cracking a Crack-me. This was especially something I thought was very cool. You can also find this Cracking project inside the stated repo. I wrote a C/C++ keygen for the Crack-me, and bonus a source code for the keygen LUV</li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">c/c++</span>
+            <span class="tag">mips assembly</span>
+            <span class="tag">socket</span>
+            <span class="tag">console</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/buidohuy99/School-Projects';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-4-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Photo album (group project)</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div class="content">
+          <ul>
+            <li>Worked in a group of 5 to create a photo album app on Android using Android Studio. Source code can be found in “Android-Development-Photo-Album” repo</li>
+            <li>Was appointed basic functions of creating an album, deleting an album, search for albums, handle the sorting of albums (basically CRUD on the album object), was <strong>NOT</strong> appointed to work with the <strong>function of adding photos to/ deleting photos from an album.</strong> </li> 
+            <li>Fun points of note:
+              <ul>
+                <li> Password-locked Albums </li>
+                <li> Bulk Select to perform operations (e.g Delete) </li>
+                <li> Keeping track of the search history for the user to navigate back to previous search results (ensuring deleted album no longer shows up during backwards navigation) </li>
+                <li> Supported orientation change on UI (Home + Seach activities) </li>
+                <li> Album Search and group results by Created Date. Able to apply “Sort” to those grouped albums </li>
+              </ul>
+            </li>
+            <li>Pair-programmed functions:
+              <ul>
+                <li> DAO for the app’s database (SQLite) </li>
+                <li> Sort albums by “Name” and by “Photos Count” </li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">java</span>
+            <span class="tag">android</span>
+            <span class="tag">sqlite</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/buidohuy99/Android-Development-Photo-Album';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-6-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Music player (collab project)</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-6-modal-carousel" class="carousel">
+          <figure class="image is-4by3 carousel-cell">
+            <img src="img/carousel/music-player/1.PNG">
+          </figure>
+        </div>
+
+        <div class="content">
+          <ul>
+            <li>A music player for Windows, collaborated with 2 other people to make this</li> 
+            <li>
+              Supports making playlists, save/load playlists, music functions like play/stop/pause, music progression bar, skip ahead or go backwards 5 sec, skip to next/or previous songs, move to any part of a song using the slider, shuffle play, looping, and finally some hotkeys for faster navigation 
+            </li>
+            <li>
+              Did some functions in the ones stated above, as well as fix some bugs in the codebase along the way.
+            </li>
+            <li>
+              Source code in "Multimedia-Player"
+            </li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">c#</span>
+            <span class="tag">wpf</span>
+            <span class="tag">windows</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/johnnyshi1999/WindowsDevelopment-CQ17-31-MultimediaPlayer';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="project-5-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Electronic store (collab project)</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="project-5-modal-carousel" class="carousel">
+          <figure class="image is-6 carousel-cell">
+            <img src="img/carousel/electronic-store/1.PNG">
+          </figure>
+        </div>
+
+        <div class="content">
+          <ul>
+            <li>A system for an online electronic store (phones, laptops,...)</li> 
+            <li>
+              Have an admin panel and a main store site. I was tasked for doing about 60-70% of the admin panel, except for the particular operations: login/logout, add product, change admin profile, and see revenue statistics(I did TOP10 statistics). So excluding those functions, I did the rest for the admin panel.
+            </li>
+            <li>
+              User site can be tested <a href="https://store-client.herokuapp.com/">here</a>. Admin site can be tested <a href="https://store-admin-cuoiky.herokuapp.com/">here</a>. Use the following credentials <strong>ID: hung456</strong> and <strong>Pass: hung456</strong> 
+            </li>
+            <li>
+              Source code in "Store-DoAn"
+            </li>
+          </ul>
+
+          <div class="tags">
+            <span class="tag">javascript</span>
+            <span class="tag">html/css</span>
+            <span class="tag">nodejs</span>
+            <span class="tag">expressjs</span>
+            <span class="tag">mongoose</span>
+            <span class="tag">mongodb</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/leetankhongs/Store_DoAn.github.io';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="more-projects-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">See more...</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div class="content">
+          <p style="text-align: center;">
+            I have more projects (including group projects), and you can check them all out too...!
+            See more details of my projects through this <a href="docs/MyResume.pdf">resume</a> or on <a href="https://github.com/buidohuy99">Github</a>
+          </p>
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="location.href = 'https://github.com/buidohuy99';">Go to Github</button>
+        <button class="button">Close</button>
+      </footer>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
+          <i class="fab fa-github"></i> <strong>devfolio</strong></a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/bundle.js"></script>
+</body>
+
 </html>
